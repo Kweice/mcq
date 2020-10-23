@@ -30,14 +30,14 @@ while tracker !=1:
     score +=1
   elif answer == "d":
     output = "Wrong."
-    score -=1
+    score -*=1
   else:
     output = "Please choose a, b, c or d only."
   
   print()
   print(output)
   print()
-  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print("Your current score: " + int(round((score/total_num_of_qn*100),1)) + "%"  )
   print()
   print()
   
@@ -75,7 +75,7 @@ while tracker !=1:
   print()
   print(output)
   print()
-  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print("Your current score: " + int(round((score/total_num_of_qn*100),1)) + "%"  )
   print()
   print()
   
@@ -115,7 +115,7 @@ while tracker !=1:
   print()
   print(output.lower())
   print()
-  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print("Your current score: " + float(round((score/total_num_of_qn*100),1)) + "%"  )
   print()
   print()
   
